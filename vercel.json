@@ -1,0 +1,8 @@
+{
+  "buildCommand": "pnpm --filter @workspace/diseno-espanol run build",
+  "outputDirectory": "artifacts/diseno-espanol/dist",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
